@@ -8,7 +8,7 @@ public class Cuoiki {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("Kiem Tra Thông Tin Khach Hang");
+		System.out.println("Kiểm Tra Thông Tin Khách Hàng");
 		
 		KiemTraThongTinKhachHang.tongHopThongTin();
 	int x = 0;
@@ -18,7 +18,7 @@ public class Cuoiki {
 	{	
 	Scanner scan = new Scanner(System.in);
 	System.out.println("");
-	System.out.print("Nhap so du tai khoan: ");
+	System.out.print("Nhập số dư tài khoản: ");
 	x = scan.nextInt();
 		
 		
@@ -72,8 +72,8 @@ public class Cuoiki {
    
       System.out.println("");
       System.out.println("Số cổ phiếu A giá sàn có :"+ muaSanA);
-      System.out.println("Số cổ phiếu B giá sàn có: "+ muaSanB);
-      System.out.println("Số cổ phiếu C giá sàn có: "+ muaSanC);
+      System.out.println("Số cổ phiếu B giá sàn có : "+ muaSanB);
+      System.out.println("Số cổ phiếu C giá sàn có : "+ muaSanC);
       
        muaTranA = (x/2)/list.get(0);
        int z = x - (muaTranA*list.get(0));
