@@ -112,7 +112,7 @@ public class KiemTraThongTinKhachHang {
 			Scanner scan = new Scanner(System.in);
 			System.out.print("Mã tài khoản: ");
 			ma = scan.nextInt();
-			System.out.println("mã tài khoản: " + ma);
+			
 		} catch (Exception e) {
 			System.out.println("lỗi.\nVui lòng nhập số");
 		}
