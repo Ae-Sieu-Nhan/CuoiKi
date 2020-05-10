@@ -22,7 +22,7 @@ public class KiemTraThongTinKhachHang {
 	
 	}
 	public static int ngay() {
-    System.out.println("Ngay Tháng Nám Sinh");
+    System.out.println("Ngày Tháng Năm Sinh");
 
 		int ngay = 0;
 		do {
@@ -99,7 +99,7 @@ public class KiemTraThongTinKhachHang {
 		if (phone.matches(rePhone)) {
 			System.out.println("số điện thoại: " + phone);
 		} else {
-			System.out.println("số điện thoại không hợp lệ.\nVui long nhập đủ số điện thoại.");
+			System.out.println("số điện thoại không hợp lệ.\nVui lòng nhập đủ số điện thoại.");
 		}
 		}while(!phone.matches(rePhone));
 		return phone;
