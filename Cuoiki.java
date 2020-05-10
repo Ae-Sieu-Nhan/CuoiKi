@@ -1,23 +1,25 @@
 package exam.cuoiki;
 
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Cuoiki {	
 	
+	
 	public static void main(String[] args) {
-		System.out.println("Kiem Tra Thong Tin Khach Hang");
-		System.out.println("");
-		KiemTraThongTinKhachHang.hoTen();
-		KiemTraThongTinKhachHang.ngayThangNam();
-		KiemTraThongTinKhachHang.soCanCuocCongDan();
-		KiemTraThongTinKhachHang.soDienThoai();
-		KiemTraThongTinKhachHang.maTaiKhoan();
+		System.out.println("Kiem Tra Thông Tin Khach Hang");
+		
+		KiemTraThongTinKhachHang.tongHopThongTin();
+	int x = 0;
+	do {
+		
 	try
 	{	
 	Scanner scan = new Scanner(System.in);
+	System.out.println("");
 	System.out.print("Nhap so du tai khoan: ");
-	int x = scan.nextInt();
+	x = scan.nextInt();
 		
 		
 	ArrayList <Integer> list = new ArrayList<>(); 
@@ -31,8 +33,8 @@ public class Cuoiki {
 	System.out.println("Giá cổ phiếu");
 	 
 	System.out.println("Cổ phiếu A giá trần: "+list.get(0)+" và giá sàn: "+list.get(1));
-	  System.out.println(" Cổ phiếu B giá trần: "+list.get(2)+" và giá sàn: "+list.get(3));
-	  System.out.println(" Cổ phiếu C giá trần: "+list.get(0)+" và giá sàn: "+list.get(5));
+	  System.out.println("Cổ phiếu B giá trần: "+list.get(2)+" và giá sàn: "+list.get(3));
+	  System.out.println("Cổ phiếu C giá trần: "+list.get(0)+" và giá sàn: "+list.get(5));
 	  System.out.println("");
     int a = x/list.get(0) ;
     int b = x/list.get(1);
@@ -48,7 +50,7 @@ public class Cuoiki {
     System.out.println("Có thể mua được "+e+" cổ phiếu C giá sàn");
     System.out.println("Có thể mua được "+f+" cổ phiếu A giá trần");	
     System.out.println("");
-    System.out.println("Có thể mua được bao nhiêu cổ phiếu với một nửa số tài khoản");
+    System.out.println("Quy định mua 1 cổ phiếu không quá 1/2 giá trị tài sản");
     int muaTranA = (x/2)/list.get(0);
      int y = x - (muaTranA*list.get(0));
     int muaTranB = (y/2)/list.get(2);
@@ -124,7 +126,7 @@ public class Cuoiki {
 		{
 		System.out.print("Vui long nhap so nguyen");
 	}
-	
+	}while(x == 0);
 	}
 	}	
 
