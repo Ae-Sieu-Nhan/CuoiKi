@@ -43,12 +43,12 @@ public class Cuoiki {
     int e = x/list.get(4);
     int f = x/list.get(5);
    
-    System.out.println("Có thể mua được "+a+" cổ phiếu A giá sàn  ");
-    System.out.println("Có thể mua được "+b+" cổ phiếu A giá trần ");
-    System.out.println("Có thể mua được "+c+" cổ phiếu B giá sàn ");
-    System.out.println("Có thể mua được "+d+" cổ phiếu B giá trần");
-    System.out.println("Có thể mua được "+e+" cổ phiếu C giá sàn");
-    System.out.println("Có thể mua được "+f+" cổ phiếu A giá trần");	
+    System.out.println("Có thể mua được "+a+" cổ phiếu A giá trần  ");
+    System.out.println("Có thể mua được "+b+" cổ phiếu A giá sàn ");
+    System.out.println("Có thể mua được "+c+" cổ phiếu B giá trần ");
+    System.out.println("Có thể mua được "+d+" cổ phiếu B giá sàn");
+    System.out.println("Có thể mua được "+e+" cổ phiếu C giá trần");
+    System.out.println("Có thể mua được "+f+" cổ phiếu A giá sàn");	
     System.out.println("");
     System.out.println("Quy định mua 1 cổ phiếu không quá 1/2 giá trị tài sản");
     int muaTranA = (x/2)/list.get(0);
