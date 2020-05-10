@@ -122,6 +122,7 @@ public class KiemTraThongTinKhachHang {
 	}
 
 	public static void tongHopThongTin() {
+		
 		Scanner scan = new Scanner(System.in);
 
 		String hoten = hoTen();
@@ -133,7 +134,7 @@ public class KiemTraThongTinKhachHang {
 		int mataikhoan = maTaiKhoan();
 
 		System.out.println("");
-
+                System.out.println("-----THÔNG TIN KHÁCH HÀNG-----");
 		System.out.println("họ và tên: " + hoten);
 
 		System.out.println("ngày tháng năm sinh: ngày " + ngay + " tháng " + thang + " năm " + nam);
