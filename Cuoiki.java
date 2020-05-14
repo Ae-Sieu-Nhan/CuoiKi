@@ -56,7 +56,7 @@ public class Cuoiki {
     int muaTranB = (y/2)/list.get(2);
     y = y - (muaTranB*list.get(2));
     int muaTranC = (y/2)/list.get(4);
-     y = y - (muaTranC*list.get(4));
+     
    
     System.out.println("");
     System.out.println("Số cổ phiếu A giá trần có :"+ muaTranA);
@@ -68,7 +68,7 @@ public class Cuoiki {
       int muaSanB = (t/2)/list.get(3);
        t = t - (muaSanB*list.get(3));
       int muaSanC = (t/2)/list.get(5);
-      t = t - (muaSanC*list.get(5));
+   
    
       System.out.println("");
       System.out.println("Số cổ phiếu A giá sàn có :"+ muaSanA);
